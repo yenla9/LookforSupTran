@@ -9,17 +9,17 @@ SELECT*
 FROM credit_trans;
 
 -- Show count the transactions that are less than $2.00 per cardholder.
-SELECT name, count(*) AS transaction_count
+SELECT cardholder_id, count(*) AS transaction_count
 FROM credit_trans
 WHERE amount < Money(2.00)
-GROUP by name
+GROUP by cardholder_id
 ORDER BY (count(*))DESC;
 
 --Validate name and transaction with merchant purchase
 SELECT *
- FROM credit_trans as a
- INNER JOIN merchant as b ON a.id_merchant = b.id
- WHERE CAST (a.name AS text) = 'Stephanie Dalton' AND amount < Money(2.00)
+FROM credit_trans as a
+INNER JOIN merchant as b ON a.id_merchant = b.merchant_id
+WHERE CAST (a.name AS text) = 'Stephanie Dalton' AND amount < Money(2.00)
 
 -- Show count the transactions that are less than $2.00 per card.
 SELECT card, count(*) AS transaction_count
@@ -38,19 +38,19 @@ WHERE(transaction.card IN
  -- Top 3 validations for card after joining with merchant
  SELECT *
  FROM transaction as a
- INNER JOIN merchant as b ON a.id_merchant = b.id
+ INNER JOIN merchant as b ON a.id_merchant = b.merchant_id
  WHERE CAST (card AS bigInt)= 376027549341849 AND amount < Money(2.00)
  ORDER BY id_merchant;
 
  SELECT *
  FROM transaction as a
- INNER JOIN merchant as b ON a.id_merchant = b.id
+ INNER JOIN merchant as b ON a.id_merchant = b.merchant_id
  WHERE CAST (card AS bigInt)= 584226564303 AND amount < Money(2.00)
  ORDER BY id_merchant;
  
  SELECT *
  FROM transaction as a
- INNER JOIN merchant as b ON a.id_merchant = b.id
+ INNER JOIN merchant as b ON a.id_merchant = b.merchant_id
  WHERE CAST (card AS bigInt)= 344119623920892 AND amount < Money(2.00)
  ORDER BY id_merchant;
  
@@ -60,11 +60,11 @@ WHERE(transaction.card IN
  
  
 -- What are the top 100 highest transactions made between 7:00 am and 9:00 am?
-SELECT amount, COUNT(*) AS transaction_count
+Select *
 FROM credit_trans
-WHERE CAST(date as TIME) >='07:00:00' and CAST(date as TIME) <= '24:00:00'
-GROUP BY amount
-ORDER BY (amount) DESC;
+WHERE CAST(date as TIME) >='07:00:00' and CAST(date as TIME) <= '9:00:00'
+ORDER BY (amount) DESC
+LIMIT 100;
 
 --Do you see any anomalous transactions that could be fraudulent?
 --No I don't see any transaction that could be fraudulent. 
@@ -81,9 +81,10 @@ ORDER BY (amount) DESC;
 --I would look more closely to these timeframes.
 
 --What are the top 5 merchants prone to being hacked using small transactions?
-
-SELECT merchant_name, Count(*)
+SELECT merchant_name, Count(*) as transaction_count
 FROM merchant_trans
 WHERE amount <Money(2.00)
 GROUP BY merchant_name
-ORDER BY (count(*)) DESC;
+ORDER BY (count(*)) DESC
+LIMIT 5;
+
