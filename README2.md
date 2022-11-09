@@ -32,7 +32,7 @@ Schema.qul is the schema of the database.
 ## Part 2: 
 ### Contain a tool (visual_data_analysis.ipynb) that examines cardholder 2, cardholder 18 and cardholder 25 transaction activities.
 
-The graph shows a few spikes for cardholder 18 when compared to cardholder 2. 
+The graph shows a few spikes for cardholder 18 when compared to cardholder 2. It requires validation with cardholder 18.
 ![Comparison chart](https://github.com/yenla9/LookforSupTran/blob/main/2_18.GIF)
 
 The graph shows 9 anomalies for cardholder 25 and it requires validation with the cardholder.
