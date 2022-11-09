@@ -24,7 +24,9 @@
 ### ERD Diagram
 ![ERD](https://github.com/yenla9/LookforSupTran/blob/main/ERD%20diagram.png)
 Note: Please fill in your password for Postgres
+
 PartOne.sql is the Query
+
 Schema.qul is the schema of the database. 
 
 ## Part 2: 
