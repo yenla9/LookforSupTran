@@ -8,19 +8,19 @@
 
 ### Review Transaction Frequency View
 ![cardholder_transaction](https://github.com/yenla9/LookforSupTran/blob/main/cardholder_transaction.GIF)
-[Frequency View](linkurl)
+[Frequency View](https://github.com/yenla9/LookforSupTran/blob/main/View_Count%20Transactions%20less%20than%20%242%20per%20cardholder.csv)
 
 ### Unusual Spike in activities
 ![overall_trend](https://github.com/yenla9/LookforSupTran/blob/main/Top%20100%20Highest%20Transaction.GIF)
-[Top 100 transaction View](linkurl)
+[Top 100 transaction View](https://github.com/yenla9/LookforSupTran/blob/main/TOP%20100%20highest%20Transaction%20between%207am%20to%209am.csv)
 
 ### Timeframe of the transaction 
 ![Timeframe](https://github.com/yenla9/LookforSupTran/blob/main/Timeframe.GIF)
-[Timeframe View](linkurl)
+[Timeframe View](https://github.com/yenla9/LookforSupTran/blob/main/Timeframe%20with%20higher%20number%20of%20transactions.csv)
 
 ### Top 5 Merchants who are prone to being hacked
 ![dashboard](https://github.com/yenla9/LookforSupTran/blob/main/top%205%20merchants.GIF)
-[Top 5 View](linkurl)
+[Top 5 View](https://github.com/yenla9/LookforSupTran/blob/main/Top%205%20Merchants%20prone%20to%20being%20hacked%20using%20small%20transaction.csv)
 
 ### ERD Diagram
 ![ERD](https://github.com/yenla9/LookforSupTran/blob/main/ERD%20diagram.png)
