@@ -30,6 +30,11 @@ PartOne.sql is the Query
 Schema.qul is the schema of the database. 
 
 ## Part 2: 
-### Contain a tool (visual_data_analysis.ipynb) that examines cardholder 2, cardholder 18 and cardholder 25 transaction activities. 
+### Contain a tool (visual_data_analysis.ipynb) that examines cardholder 2, cardholder 18 and cardholder 25 transaction activities.
+The graph shows a few spikes for cardholder 18 when compared to cardholder 2. 
+![Comparison chart](https://github.com/yenla9/LookforSupTran/blob/main/2_18.GIF)
 
-###
+### There was a detailed analysis done for cardholder 25. Shown by the graph there are 9 anomalies.
+![Transactions](https://github.com/yenla9/LookforSupTran/blob/main/outliers%2025.GIF)
+
+
