@@ -30,12 +30,12 @@ PartOne.sql contains the query
 schema.sql contains the schema of the database. 
 
 ## Part 2: 
-### Contain a tool (visual_data_analysis.ipynb) that examines cardholder 2, cardholder 18 and cardholder 25 transaction activities.
+### Contain a tool (visual_data_analysis.ipynb) that examines Cardholder 2, Cardholder 18 and Cardholder 25 transaction activities.
 
-This graph shows a few spikes for cardholder 18 compared to cardholder 2. It requires validation with cardholder 18.
+This graph shows a few spikes for Cardholder 18 compared to Cardholder 2. It requires validation with Cardholder 18.
 ![Comparison chart](https://github.com/yenla9/LookforSupTran/blob/main/2_18.GIF)
 
-This graph shows 9 anomalies for cardholder 25. It requires validation with the cardholder.
+This graph shows 9 anomalies for Cardholder 25. It requires validation with the cardholder.
 ![Transactions](https://github.com/yenla9/LookforSupTran/blob/main/outliers%2025.GIF)
 
 
