@@ -40,8 +40,8 @@ This graph shows 9 anomalies for Cardholder 25. It requires validation with Card
 
 
 ## Challenge: 
-### Contain a tool (challenge.ipynb) to identify anomalies using standard deviation for any cardholder. It displays a line graph of the anomalies
+### Contain a tool (challenge.ipynb) to identify anomalies using standard deviation for any cardholder. It displays a line graph of the anomalies.
 ![STD](https://github.com/yenla9/LookforSupTran/blob/main/STD.GIF)
 
-### Identify anomalies using interquartile range any cardholder. It displays a line graph of the anomalies
+### Identify anomalies using Interquartile Range fpr any cardholder. It displays a line graph of the anomalies.
 ![IQR](https://github.com/yenla9/LookforSupTran/blob/main/IQR.GIF)
