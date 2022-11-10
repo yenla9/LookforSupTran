@@ -4,7 +4,7 @@
 
 
 ## Detecting Fraudulent Transactions: Part One
-### Contain SQL views that allow users to determine if there is of potential fraudulent activity. Some of the views are transaction frequency, unusual spike, and timeframe of the activities.   
+### Contain SQL Views that allow users to determine any potential fraudulent activity. Some of the views are transaction frequency, unusual spike, and timeframe of the activities.   
 
 ### Review Transaction [Frequency View](https://github.com/yenla9/LookforSupTran/blob/main/View_Count%20Transactions%20less%20than%20%242%20per%20cardholder.csv)
 ![cardholder_transaction](https://github.com/yenla9/LookforSupTran/blob/main/cardholder_transaction.GIF)
