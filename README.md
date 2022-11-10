@@ -36,6 +36,7 @@ This graph shows a few spikes for Cardholder 18 compared to Cardholder 2. It req
 ![Comparison chart](https://github.com/yenla9/LookforSupTran/blob/main/Image/2_18.GIF)
 
 This graph shows 9 anomalies for Cardholder 25. It requires validation with Cardholder 25.
+![outliers](https://github.com/yenla9/LookforSupTran/blob/main/Image/outliers%2025.GIF)
 ![25](https://github.com/yenla9/LookforSupTran/blob/main/Image/25.GIF)
 
 
