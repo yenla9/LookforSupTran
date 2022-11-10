@@ -35,7 +35,7 @@ schema.sql contains the schema of the database.
 This graph shows a few spikes for Cardholder 18 compared to Cardholder 2. It requires validation with Cardholder 18.
 ![Comparison chart](https://github.com/yenla9/LookforSupTran/blob/main/2_18.GIF)
 
-This graph shows 9 anomalies for Cardholder 25. It requires validation with the cardholder.
+This graph shows 9 anomalies for Cardholder 25. It requires validation with Cardholder 25.
 ![Transactions](https://github.com/yenla9/LookforSupTran/blob/main/outliers%2025.GIF)
 
 
